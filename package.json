@@ -1,0 +1,26 @@
+{
+  "name": "back-end-lab1",
+  "version": "1.0.0",
+  "description": "Simple REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tytianiuk/Back-end-Lab1.git"
+  },
+  "author": "Tytianiuk Artem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tytianiuk/Back-end-Lab1/issues"
+  },
+  "homepage": "https://github.com/tytianiuk/Back-end-Lab1#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
