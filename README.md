@@ -37,7 +37,7 @@ http://localhost:3000/healthcheck
 http://localhost:3000/healthcheck
 ```
 
-![Postman test](./public/images/postman.png)
+![Postman test](./public/images/postman.jpg)
 
 ### 4. Зупинка Docker:
 
