@@ -1,9 +1,10 @@
 import express from 'express';
+import { DateTime } from 'luxon';
 
 const router = express.Router();
 
 router.get('/healthcheck', (req, res) => {
-  const currentDate = new Date().toUTCString();
+  const currentDate = DateTime.now().setZone('Europe/Kyiv').toISO();
   const response = {
     date: currentDate,
     status: 'OK',
